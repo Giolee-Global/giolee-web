@@ -41,10 +41,10 @@
                                     <h5 class="mb-3" style="color: #f9e745;">Quick links</h5>
 									<div class="footer-widget-menu">
 										<ul>
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="blog-grid-three.html">Blog</a></li>
-											<li><a href="testimonial.html">Testimonials</a></li>
-											<li><a href="contact.html">Contact Us</a></li>
+											<li><a href="./">Home</a></li>
+											<li><a href="faq">FAQ's</a></li>
+                                            <li><a href="projects">Projects</a></li>
+											<li><a href="terms">Terms of use</a></li>
 										</ul>
 									</div>
 								</div>
@@ -52,11 +52,13 @@
 
 							<div class="col-lg-2 col-sm-6 lg-mt-30">
 								<div class="footer__four-widget address">
-                                    <h5 class="mb-3" style="color: #f9e745;">Support</h5>
+                                    <h5 class="mb-3" style="color: #f9e745;">The Company</h5>
 									<div class="footer-widget-menu">
 										<ul>
-											<li><a href="contact.html">Term & Conditions</a></li>
-											<li><a href="contact.html">Privacy policy</a></li>
+                                            <li><a href="about">About us</a></li>
+                                            <li><a href="team">Team</a></li>
+                                            <li><a href="contact">Contact us</a></li>
+											<li><a href="certifications">Certifications</a></li>
 										</ul>
 									</div>
 								</div>
