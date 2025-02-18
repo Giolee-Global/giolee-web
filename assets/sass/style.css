@@ -6057,7 +6057,7 @@ p {
 }
 .footer__four-area {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 10console.log('This is a log message');0px;
 }
 .footer__four-widget .logo {
   display: block;
