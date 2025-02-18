@@ -79,6 +79,7 @@
                             <li class="menu-item-has-children"><a href="#">Who we are</a>
                                 <ul class="sub-menu">
 									<li><a href="about">About us</a></li>
+                                    <li><a href="ceo">The CEO's Desk</a></li>
 									<li><a href="team">Team</a></li>
                                     <li><a href="faq">FAQ's</a></li>
                                 </ul>
