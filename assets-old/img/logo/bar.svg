@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>bar-svg</title>
+	<style>
+		.s0 { fill: #75c631 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path class="s0" d="m24 0h-7.3v7.3h7.3z"/>
+	<path class="s1" d="m7.3 0h-7.3v7.3h7.3z"/>
+	<path class="s0" d="m7.3 16.7h-7.3v7.3h7.3z"/>
+	<path class="s1" d="m24 16.7h-7.3v7.3h7.3z"/>
+</svg>
