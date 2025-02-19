@@ -108,7 +108,7 @@ include "./components/navbar.php";
                             <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="about__four-counter-item">
                                     <div class="box text-center">
-                                        <h2><span class="counter">100</span>+</h2>
+                                        <h2><span class="counter">120</span>+</h2>
                                         <span>Complete Projects</span>
                                     </div>
                                 </div>
@@ -241,6 +241,57 @@ include "./components/navbar.php";
         </div>
     </div>
     
+    <div class="portfolio__two section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 columns_sticky lg-mb-25">
+                    <div class="portfolio__two-left mr-40 xl-mr-0">
+                        <span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Latest Creations</span>
+                        <h2 class="title_split_anim">View Our Completed Projects</h2>
+                        <div class="item_bounce">
+                            <a class="build_button mt-35" href="projects">All Project<i class="flaticon-right-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="portfolio__two-right">
+                        <div class="portfolio__two-item card_sticky" style="--card-top: 100px;">
+                            <img src="assets/img/projects.jpg" alt="image">
+                            <div class="portfolio__two-item-content">
+                                <span>Healthcare</span>
+                                <h4><a href="portfolio-details.html">Healthcare Facility</a></h4>
+                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__two-item mt-25 card_sticky" style="--card-top: 180px;">
+                            <img src="assets/img/projects.jpg" alt="image">
+                            <div class="portfolio__two-item-content">
+                                <span>Residential</span>
+                                <h4><a href="portfolio-details.html">Luxury Home Renovation</a></h4>
+                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__two-item mt-25 card_sticky" style="--card-top: 260px;">
+                            <img src="assets/img/projects.jpg" alt="image">
+                            <div class="portfolio__two-item-content">
+                                <span>Public Spaces</span>
+                                <h4><a href="portfolio-details.html">Community Center</a></h4>
+                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__two-item mt-25 card_sticky">
+                            <img src="assets/img/projects.jpg" alt="image">
+                            <div class="portfolio__two-item-content">
+                                <span>Industrial</span>
+                                <h4><a href="portfolio-details.html">Industrial Warehouse</a></h4>
+                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     
 <?php include "./components/footer.php"; ?>

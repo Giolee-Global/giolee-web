@@ -7118,7 +7118,7 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px 0 120px 0;
+  padding: 120px 0 120px 0;
 }
 .video__two::after {
   content: "";
@@ -7127,7 +7127,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, rgba(255, 251, 251, 0) 0%, var(--color-1) 100%);
+  background: #000000;
+  opacity: 0.8;
   z-index: -1;
 }
 .video__two-icon {
