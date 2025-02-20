@@ -246,8 +246,8 @@ include "./components/navbar.php";
             <div class="row">
                 <div class="col-lg-5 columns_sticky lg-mb-25">
                     <div class="portfolio__two-left mr-40 xl-mr-0">
-                        <span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Latest Creations</span>
-                        <h2 class="title_split_anim">View Our Completed Projects</h2>
+                        <h2 class="title_split_anim mb-3">View Our Completed Projects</h2>
+                        <p>Excerpts of Giolee track records of environmental </br>projects carried out for our clients.</p>
                         <div class="item_bounce">
                             <a class="build_button mt-35" href="projects">All Project<i class="flaticon-right-up"></i></a>
                         </div>
@@ -256,35 +256,35 @@ include "./components/navbar.php";
                 <div class="col-lg-7">
                     <div class="portfolio__two-right">
                         <div class="portfolio__two-item card_sticky" style="--card-top: 100px;">
-                            <img src="assets/img/projects.jpg" alt="image">
+                            <img src="assets/img/projects/mininta3.jpg" alt="image">
                             <div class="portfolio__two-item-content">
-                                <span>Healthcare</span>
-                                <h4><a href="portfolio-details.html">Healthcare Facility</a></h4>
-                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                                <span>Remediation</span>
+                                <h4><a href="">Oil Spill Response and Remediation</a></h4>
+                                <a href=""><i class="flaticon-right-up"></i></a>
                             </div>
                         </div>
                         <div class="portfolio__two-item mt-25 card_sticky" style="--card-top: 180px;">
-                            <img src="assets/img/projects.jpg" alt="image">
+                            <img src="assets/img/projects/bille3.jpg" alt="image">
                             <div class="portfolio__two-item-content">
-                                <span>Residential</span>
-                                <h4><a href="portfolio-details.html">Luxury Home Renovation</a></h4>
-                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                                <span>Containment</span>
+                                <h4><a href="">Containment, Recovery and Evacuation of Crude oil Spill on NewCross NP 6” Delivery Line</a></h4>
+                                <a href=""><i class="flaticon-right-up"></i></a>
                             </div>
                         </div>
                         <div class="portfolio__two-item mt-25 card_sticky" style="--card-top: 260px;">
-                            <img src="assets/img/projects.jpg" alt="image">
+                            <img src="assets/img/projects/training-8.jpg" alt="image">
                             <div class="portfolio__two-item-content">
-                                <span>Public Spaces</span>
-                                <h4><a href="portfolio-details.html">Community Center</a></h4>
-                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                                <span>Training</span>
+                                <h4><a href="">Presidential Amnesty Training Session</a></h4>
+                                <a href=""><i class="flaticon-right-up"></i></a>
                             </div>
                         </div>
                         <div class="portfolio__two-item mt-25 card_sticky">
-                            <img src="assets/img/projects.jpg" alt="image">
+                            <img src="assets/img/projects/ikata4.jpg" alt="image">
                             <div class="portfolio__two-item-content">
-                                <span>Industrial</span>
-                                <h4><a href="portfolio-details.html">Industrial Warehouse</a></h4>
-                                <a href="portfolio-details.html"><i class="flaticon-right-up"></i></a>
+                                <span>Containment</span>
+                                <h4><a href="">Containment, Recovery and Evacuation of Crude oil Spill on 14” Okordia-Rumuekpe Trunkline</a></h4>
+                                <a href=""><i class="flaticon-right-up"></i></a>
                             </div>
                         </div>
                     </div>
