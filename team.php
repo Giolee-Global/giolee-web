@@ -35,7 +35,7 @@ include "./components/navbar.php";
                     <div class="team__area-item">
                         <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
                         <div class="team__area-item-content t-center pt-20">
-                            <h5>Alan Dosan</h5>
+                            <h5>Edim Edim</h5>
                             <span>Head of OSR</span>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ include "./components/navbar.php";
                     <div class="team__area-item">
                         <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
                         <div class="team__area-item-content t-center pt-20">
-                            <h5>Alan Dosan</h5>
+                            <h5>Edim Edim</h5>
                             <span>Head of OSR</span>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ include "./components/navbar.php";
                     <div class="team__area-item">
                         <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
                         <div class="team__area-item-content t-center pt-20">
-                            <h5>Alan Dosan</h5>
+                            <h5>Edim Edim</h5>
                             <span>Head of OSR</span>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ include "./components/navbar.php";
                     <div class="team__area-item">
                         <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
                         <div class="team__area-item-content t-center pt-20">
-                            <h5>Alan Dosan</h5>
+                            <h5>Edim Edim</h5>
                             <span>Head of OSR</span>
                         </div>
                     </div>
