@@ -42,7 +42,7 @@ include "./components/navbar.php";
                             </div>
                         </div>
                         <h4 class="mb-20">Scope of laboratory analysis:</h4>
-                        <p class="mb-20"><b>Wet and soil</b>
+                        <p class="mb-20"><b>Wet and soil:</b>
                         <ul>
                             <li>In-situ measurement (pH, TDS, EC, Salinity, DO)</li>
                             <li>Physio-chemical analysis on water and soil.</li>
@@ -52,12 +52,12 @@ include "./components/navbar.php";
                             <li>Surface and underground water quality assessments.</li>
                         </ul>
                         </p>
-                        <p class="mb-20"><b>Instrument labs</b> These includes use of sophisticated equipment to observe and monitor analytical processes. Giolee makes use of AAS and MPAES for various heavy metals and trace metal analysis.
+                        <p class="mb-20"><b>Instrument labs:</b> These includes use of sophisticated equipment to observe and monitor analytical processes. Giolee makes use of AAS and MPAES for various heavy metals and trace metal analysis.
                             Giolee uses state of art GC/FIDs and GC/MSD for various volatile, semi volatile and other organic analysis such BTEX, TPH,PAH, pesticides, phenols, volatile fatty acids etc.
                             Other instrumental analysis are done using highly accurate UV and FTIR equipment.</p>
-                        <p class="mb-20"><b>Microbial lab</b> Giolee Micro biology lab is equip with latest microbial lab tools to handle any kind of biological and microbiological analysis such as HUB,THB,THF,SRB, Total coliform on water, waste water, soil, sediment, plants and biota.
+                        <p class="mb-20"><b>Microbial lab:</b> Giolee Micro biology lab is equip with latest microbial lab tools to handle any kind of biological and microbiological analysis such as HUB,THB,THF,SRB, Total coliform on water, waste water, soil, sediment, plants and biota.
                             Other areas of strength include Benthic organism and plankton analysis.</p>
-                        <p class="mb-20"><b>Toxicity lab</b>
+                        <p class="mb-20"><b>Toxicity lab:</b>
                             Giolee is equip with well serene toxicity lab for various bio-monitoring on
                             <ul>
                                 <li>Toxicology Test</li>
