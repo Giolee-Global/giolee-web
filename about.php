@@ -34,7 +34,7 @@ include "./components/navbar.php";
                             <div class="col-md-12 md-mb-25 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="experience__area-list-item">
                                     <div>
-                                        <p class="wow fadeInUp" data-wow-delay=".6s">“Giolee Global Resources Limited incorporated in Nigeria on November 5, 2004 as a wholly-owned indigenous company which is wholeheartedly passionate about the impact of unsustainable activities on human and the environment”</p>
+                                        <p class="wow fadeInUp" data-wow-delay=".6s">“Giolee Global Resources Limited is a company incorporated in Nigeria on November 5, 2004 as a wholly-owned indigenous company which is wholeheartedly passionate about the impact of unsustainable activities on human and the environment”</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,9 +79,9 @@ include "./components/navbar.php";
 				<div class="col-xl-8 mx-auto">
 					<div class="item_bounce">
                         <h3 class="text-white mb-3">QUALITY POLICY</h3>
-                        <p class="text-white lead">Giolee Global Resources Limited is a Legal Entity incorporated into Nigerian Corporate Affairs Commission (CAC) with registration No. RC 610624. We are committed to providing high quality services in Oil Spill Clean-up, Remediation, Environmental Assessment and Consultancy, Training Services and Laboratory Services that meet and/or surpasses all quality expectations of customers, statutory, regulatory and other relevant interested parties.</p>
+                        <p class="text-white lead">Giolee Global Resources Limited is a Legal Entity incorporated under the Corporate Affairs Commission (CAC) with registration No. RC 610624. We are committed to providing high quality services in Oil Spill Clean-up, Remediation, Environmental Assessment and Consultancy, Training Services and Laboratory Services that meet and/or surpasses all quality expectations of customers, statutory, regulatory and other relevant interested parties.</p>
                         <p class="text-white lead">We endeavour to develop the necessary skills and build an attitude essential for a risk-based thinking approach to work towards achieving our objectives.</p>
-                        <p class="text-white lead">GIOLEE shall endeavour to fully implement the requirements of ISO9001:2015 and ISO/IEC 17025 standards, maintain an atmosphere of integrity, responsiveness as well as continual improvement of the quality management system and competence of the Laboratory. GIOLEE shall also build capacity in its area of specialization and maintain international best practice in all her services.</p>
+                        <p class="text-white lead">GIOLEE adheres strictly to the standards  of ISO9001:2015 and ISO/IEC 17025  and maintains the highest level of integrity, swift responsiveness and shall ensure this by continuously implementing, maintaining and improving its Quality Management System in order to reach and possibly exceed clients satisfaction. GIOLEE shall also build capacity in its area of specialization and maintain international best practice in all her services.</p>
                         <p class="text-white lead">We shall ensure that this policy is communicated, understood, implemented, documented and made available at all levels within the organization and to all relevant interested parties.</p>			
 					</div>
 				</div>

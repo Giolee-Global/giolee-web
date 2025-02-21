@@ -3034,7 +3034,7 @@ p {
 .header__area-menubar-center-menu ul li .sub-menu {
   position: absolute;
   background: var(--color-1);
-  min-width: 260px;
+  min-width: 360px;
   transition: 0.4s;
   top: 63px;
   opacity: 0;

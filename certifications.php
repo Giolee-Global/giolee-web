@@ -39,7 +39,7 @@ include "./components/navbar.php";
                 </div>
                 <div class="col-md-4 mt-25 mb-50 wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
                     <div class="portfolio__two-item">
-                        <img src="assets/img/certificates/cert3.jpeg" alt="image">
+                        <img src="assets/img/certificates/cert2.jpeg" alt="image">
                     </div>
                 </div>
                 <div class="col-md-4 mt-25 mb-50 wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
