@@ -90,7 +90,7 @@
 									<li><a href="waste-management">Waste Management</a></li>
 									<li><a href="laboratory-services">Laboratory Services</a></li>
                                     <li><a href="ecosystem-mangrove-restoration">Ecosystem Mangrove Restoration</a></li>
-                                    <li><a href="water_waste-treatment">Water / Waste Treatment</a></li>
+                                    <li><a href="water-waste-treatment">Water/Waste Treatment</a></li>
                                     <li><a href="decommissioning">Decommissioning</a></li>
                                     <li><a href="training">Training</a></li>
                                     <li><a href="oil-spill-clean-up-and-remediation">Oil Spill Clean Up and Remediation</a></li>

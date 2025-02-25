@@ -73,6 +73,13 @@ include "./components/navbar.php";
                                 <img class="img_full" src="assets/img/service/lab4.jpg" alt="image">
                             </div>
                         </div>
+                        <p class="mb-20"><b>Finger printing of crude oil:</b> Giolee, deploys high resolution capillary gas chromatography flame ionization detector (GC/FID) and gas chromatography mass spectrometer detector (GC/MSD) to profile crude oil finger printing in all its levels 1,2 and 3 to generate data representing the saturates range from C8-C40 including the acrylic isoprenoids ratios and weathering checks.
+                            Further into profile includes the EPA priority PAH and alkylated PAH alongside the biomarkers paying close attentions to tricyclic terpenes, hopenes, steranes and sequiterpenes. Using statistical approach to interpret quantitatively and qualitatively suits of generated data.</p>
+                        <p class="mb-20"><b>Quality Assurance:</b> Giolee laboratory is committed to providing its client with excellent quality data with proven competency in consistent participation in proficiency testing with international proficiency bodies.
+                        Statutory regular equipment calibrations and maintenance. Use of certified reference materials and standards for verifications and validations.</p>
+                        <p>Strict adherence to requisite experimental and equipment conditions so as to generate valid data.
+                            Use of trained and competent analysts in carrying out analytical procedures.
+                            Hence, quality assurance and control are well defined and adhered to in Giolee laboratory.</p>
                     </div>
                 </div>
             </div>

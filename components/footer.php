@@ -36,7 +36,7 @@
                                 </div>
 							</div>
 							
-							<div class="col-lg-3 col-sm-6 lg-mt-30">
+							<div class="col-lg-3 col-sm-6 col-6 lg-mt-30">
 								<div class="footer__four-widget ml-40 lg-ml-0">
                                     <h5 class="mb-3" style="color: #f9e745;">Quick links</h5>
 									<div class="footer-widget-menu">
@@ -50,7 +50,7 @@
 								</div>
 							</div>
 
-							<div class="col-lg-2 col-sm-6 lg-mt-30">
+							<div class="col-lg-2 col-sm-6 col-6 lg-mt-30">
 								<div class="footer__four-widget address">
                                     <h5 class="mb-3" style="color: #f9e745;">The Company</h5>
 									<div class="footer-widget-menu">

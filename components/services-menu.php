@@ -7,7 +7,7 @@
                                     <li><a href="waste-management">Waste Management<i class="flaticon-right-up"></i></a></li>
 									<li><a href="laboratory-services">Laboratory Services<i class="flaticon-right-up"></i></a></li>
                                     <li><a href="ecosystem-mangrove-restoration">Ecosystem Mangrove Restoration<i class="flaticon-right-up"></i></a></li>
-                                    <li><a href="water_waste-treatment">Water / Waste Treatment<i class="flaticon-right-up"></i></a></li>
+                                    <li><a href="water-waste-treatment">Water/Waste Treatment<i class="flaticon-right-up"></i></a></li>
                                     <li><a href="decommissioning">Decommissioning<i class="flaticon-right-up"></i></a></li>
                                     <li><a href="training">Training<i class="flaticon-right-up"></i></a></li>
                                     <li><a href="oil-spill-clean-up-and-remediation">Oil Spill Clean Up and Remediation<i class="flaticon-right-up"></i></a></li>
