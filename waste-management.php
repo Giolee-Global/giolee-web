@@ -28,15 +28,8 @@ include "./components/navbar.php";
                     <div class="services__details-area">
                         <img src="assets/img/service/waste3.jpg" alt="image">
                         <h3 class="mt-25 mb-20">Waste Management</h3>
-                        <p class="mb-20">We undertake waste management services involving the conversion of site waste such as woods and vegetal waste into pulp (reusable in agriculture & decorative materials for beatification of flowers). We also use the Hydra grinder to process other wastes such as asphalts, asbestos and other construction wastes to less hazardous and reusable forms.</p>
-                        <p class="mb-25">We also provide other professional waste management services some of which include:</p>
-                        <ul>
-                            <li>Effluent</li>
-                            <li>Wastewater</li>
-                            <li>Produced Water Treatment</li>
-                        </ul>
-                        <p>We also manage municipal waste in line with regulatory guides for collection, transportation, treatment and disposal.</p>
-                        <p>We equally manage industrial waste such as drill cuttings and associated effluents from oil and gas operation in line with regulatory guides for collection, transportation, treatment and disposal.</p>
+                        <p class="mb-20">Giolee renders waste management services that is aimed at safely handling the various wastes generated during industrial processes and exploration activities thereby reducing the impact of the waste on contaminated areas and improving the areas.</p>
+                        <p class="mb-20">The waste management activities handled by Giolee involves and not restricted to the evacuation, transportation, disposal and recycling of waste and harmful materials.</p>
                         <div class="row mt-40 mb-40">
                             <div class="col-sm-6 sm-mb-25">
                                 <img class="img_full" src="assets/img/service/waste-management-III.jpg"alt="image">

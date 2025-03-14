@@ -48,7 +48,73 @@ include "./components/navbar.php";
                         <p class="mb-20">Produced water always contains high concentrations of TDS, metal ions as well as oil and grease. To ensure the injected produced water is confined in the injection zone in a manner that does not contaminate the water bearing geologic formation, produced water needs to be treated before injection. Therefore, to meet the UIC and RCRA (Resource Conservation and Recovery Act) regulations, removal of TDS, TOC, oil/grease, hardness, and metal ions (including ammonia and boron) are the main treatment goals.</p>
 
                         <h4 class="mb-20">Produced Water Management Technologies</h4>
-                        <p>The general objectives for operators treating produced water are: de-oiling (removal of dispersed oil and grease), desalination, removal of suspended particles and sand, removal of soluble organics, removal of dissolved gases, removal of naturally occurring radioactive materials (NORM), disinfection and softening (to remove excess water hardness). To meet up with these objectives, Giolee usually apply many standalone and combined physical, biological and chemical treatment processes for produced water management. We have a strategic partnership with Christohouston Energy Limited which also have a partnership agreement with Myclex in Huston Texas. Based on these joint agreement Giolee has access to their equipment that we use in managing effluent and waste water onshore and offshore in the oil and gas industry. Below are some technical specification of equipment available</p>
+                        <p class="mb-20">The general objectives for operators treating produced water are: de-oiling (removal of dispersed oil and grease), desalination, removal of suspended particles and sand, removal of soluble organics, removal of dissolved gases, removal of naturally occurring radioactive materials (NORM), disinfection and softening (to remove excess water hardness). To meet up with these objectives, Giolee usually apply many standalone and combined physical, biological and chemical treatment processes for produced water management. We have a strategic partnership with Christohouston Energy Limited which also have a partnership agreement with Myclex in Huston Texas. Based on these joint agreement Giolee has access to their equipment that we use in managing effluent and waste water onshore and offshore in the oil and gas industry. Below are some technical specification of equipment available</p>
+
+                        <p class="mb-20">Giolee treats and remediates soil and groundwater water using its technology called Biosparging for which it has Patent Right. Biosparging consists of the injection of pressurized air(oxygen) into a contaminated zone or acquirer to stimulate in-Siri aerobic biological activities. This technique applies to dissolved and residual contamination in the saturated zone and target’s biodegradable contaminants under aerobic conditions.</p>
+                        <div class="row mt-40 mb-40 portfolio__details-area-image">
+                            <div class="col-sm-6 sm-mb-25">
+                                <img src="assets/img/service/wwt.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/img/service/wwt1.jpeg" alt="image">
+                            </div>
+                            <h6 class="mt-2">Biosparging System Installation </h6>
+                        </div>
+                        <p class="mb-20">
+                            The Activities carried out during the Biosparging process includes:
+                            <ul>
+                                <li>CSM (Conceptual Site Modelling)</li>
+                                <li>Soil Sampling</li>
+                                <li>Groundwater Sampling</li>
+                                <li>Site Delineation</li>
+                                <li>Sample Analysis</li>
+                                <li>Development of RAP</li>
+                            </ul>
+                        </p>
+                        <p class="mb-20">
+                            The Remediation Approach involves;
+                            <ol>
+                                <li>⁠Biosparging of Dissolved phase Groundwater Treatment</li>
+                                <li>⁠⁠Trenching and Removal of Free-phase for Monitoring and Aeration</li>
+                                <li>⁠⁠On-site in-situ soil and Groundwater Remediation</li>
+                                <li>Barrier/special prevention using activated carbon</li>
+                            </ol>
+                        </p>
+                        <p class="mb-20">
+                            Monitoring and sampling will also be undertaken throughout the project lifespan.
+                            Groundwater/soil samples will be collected for laboratory Analysis as follows:
+                            <ul>
+                                <li>Before Remediation</li>
+                                <li>During Remediation</li>
+                                <li>Post-remediation groundwater sampling will also</li>
+                                <li>Groundwater samples will be analyzed for BTEX and TPH-CWG</li>
+                            </ul>
+                        </p>
+                        <div class="row mt-40 mb-40 portfolio__details-area-image">
+                            <div class="col-sm-6 sm-mb-25">
+                                <img src="assets/img/service/wwt2.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/img/service/wwt3.jpeg" alt="image">
+                            </div>
+                            <h6 class="mt-2">Installation of well-heads and Air Pressure Lines</h6>
+                        </div>
+                        <div class="row mt-40 mb-40 portfolio__details-area-image">
+                            <div class="col-sm-6 sm-mb-25">
+                                <img src="assets/img/service/wwt4.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/img/service/wwt5.jpeg" alt="image">
+                            </div>
+                        </div>
+                        <div class="row mt-40 mb-40 portfolio__details-area-image">
+                            <div class="col-sm-6">
+                                <img src="assets/img/service/wwt6.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/img/service/wwt7.jpeg" alt="image">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
