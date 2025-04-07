@@ -87,15 +87,15 @@
 
 							<li class="menu-item-has-children"><a href="#">Services</a>
                                 <ul class="sub-menu">
-									<li><a href="waste-management">Waste Management</a></li>
-									<li><a href="laboratory-services">Laboratory Services</a></li>
-                                    <li><a href="ecosystem-mangrove-restoration">Ecosystem Mangrove Restoration</a></li>
-                                    <li><a href="water-waste-treatment">Water/Waste Treatment</a></li>
-                                    <li><a href="decommissioning">Decommissioning</a></li>
-                                    <li><a href="training">Training</a></li>
-                                    <li><a href="oil-spill-clean-up-and-remediation">Oil Spill Clean Up and Remediation</a></li>
                                     <li><a href="oil-spill-response-onshore-offshore">Oil Spill Response, Onshore & Offshore</a></li>
-                                    <li><a href="environmental-consultancy-audit-assessment">Environmental Consultancy, Audit and Assessment</a></li>
+									<li><a href="oil-spill-clean-up-and-remediation">Oil Spill Clean Up and Remediation</a></li>
+									<li><a href="waste-management">Waste Management</a></li>
+									<li><a href="water-waste-treatment">Water Treatment</a></li>
+                                    <li><a href="environmental-consultancy-audit-assessment">⁠⁠Environmental Consultancy, Audit, & Assessment ( Baseline study, EER, EAR, EIA, PIA)</a></li>
+									<li><a href="laboratory-services">Laboratory Services</a></li>
+									<li><a href="ecosystem-mangrove-restoration">Ecosystem Mangrove Restoration</a></li>
+									<li><a href="training">Training</a></li>
+									<li><a href="decommissioning">Decommissioning</a></li>
                                 </ul>
                             </li>
 
