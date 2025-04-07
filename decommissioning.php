@@ -28,7 +28,7 @@ include "./components/navbar.php";
                     <div class="services__details-area">
                         <img src="assets/img/service/decommissioning-3.jpg" alt="image">
                         <h3 class="mt-25 mb-20">Decommissioning</h3>
-                        <p class="mb-20">Giolee has the capabilities to handle decommissioning services both onshore and offshore. We have the experience and tools to plan, manage, and execute your facility decommissioning and restoration projects successfully, responsibly, and safely. We provides a full-range of decommissioning services to the oil and gas and environmental industries, including:</p>
+                        <p class="mb-20">Giolee has the capabilities to handle decommissioning services both onshore and offshore. We have the experience and tools to plan, manage, and execute your facility decommissioning and restoration projects successfully, responsibly, and safely. We provide a full-range of decommissioning services to the oil and gas and environmental industries, including:</p>
                         <ul>
                             <li>Detailed scope definition</li>
                             <li>Estimating and scheduling</li>
