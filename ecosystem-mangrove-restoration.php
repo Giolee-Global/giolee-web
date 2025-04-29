@@ -28,14 +28,17 @@ include "./components/navbar.php";
                     <div class="services__details-area">
                         <img src="assets/img/service/mangrove5.jpg" alt="image">
                         <h3 class="mt-25 mb-20">Ecosystem Mangrove Restoration</h3>
-                        <p class="mb-20">Giolee has a strategic partnership with Lewis Environmental Services Inc to provide extensive expertise in the restoration and management of mangrove forest and other wetlands. Giolee has a Mangrove nursery with over 1,000,000 Juvenile mangrove that is being nursed, with great resistance to invasive species and other unfavorable edaphic factors and ready to be outplanted any where at clients demand. When hydrocarbon coats the roots of the mangrove, it starves them of oxygen, essential element for metabolic activities as a result of this it leads to the increase in death rate of mangrove which is a hot spot for biodiversity.</p>
-                        <p class="mb-20">Mangrove Restoration Technique In summary, five critical steps are necessary to achieve successful mangrove restoration:
-                            Understand the autecology (individual species ecology) of the mangrove species at the site; In particular means of propagation, species distribution and taxonomy
-                            Understand the normal hydrologic patterns and sediments that control the distribution and successful
-                            Establishment and growth of targeted mangrove species.
-                            Assess modifications of the original mangrove environment that currently prevent natural from growing.
-                            Secondary succession (recovery after damage).
-                            Design the restoration program to restore appropriate hydrology and, if possible, utilize natural volunteer mangrove propagate recruitment for plant establishment.</p>
+                        <p class="mb-20">Giolee has a strategic partnership with Lewis Environmental Services Inc to provide extensive expertise in the restoration and management of mangrove forest and other wetlands. Giolee has a Mangrove nursery with over 1,000,000 Juvenile mangrove that are nursed, with great resistance to invasive species and other unfavorable edaphic factors and ready to be outplanted any where at clients demand. When hydrocarbon coats the roots of the mangrove, it starves them of oxygen, essential element for metabolic activities as a result of this it leads to the increase in death rate of mangrove which is a hot spot for biodiversity.</p>
+                        <h4 class="mb-20">Mangrove Restoration Technique</h4>
+                        <p class="mb-20">There are five critical steps necessary to achieve a successful mangrove restoration:<br>
+                            <ol>
+                                <li>Understand the autecology (individual species ecology) of the mangrove species at the site (In particular means of propagation, species distribution and taxonomy)</li>
+                                <li>Understand the normal hydrologic patterns and sediments that control the distribution and successful Establishment and growth of targeted mangrove species.</li>
+                                <li>Assess modifications of the original mangrove environment that currently prevent natural vegetation from growing.</li>
+                                <li>Secondary succession (recovery after damage).</li>
+                                <li>Design the restoration program to restore appropriate hydrology and, if possible, utilize natural volunteer mangrove propagate recruitment for plant establishment.</li>
+                            </ol>
+                        </p>
                         <p class="mb-20">Only utilize actual planting of propagates, collected seedlings, or cultivated seedlings after Determining (through steps a-d) that natural recruitment will not provide the quantity of Successfully established seedlings, rate of stabilization, or rate of growth of saplings Established as objectives for the restoration project (Lewis and Marshall 1997) Planting Mangroves is not difficult provided we observe some basic guidelines.</p>
                         <p class="mb-20">
                             The pre-condition for success is to conduct an initial survey of representative habitats in areas close to the chosen site that should focus on
@@ -76,33 +79,20 @@ include "./components/navbar.php";
                         </p>
                         <h4 class="mb-20">Restoration Design</h4>
                         <p class="mb-20">Giolee Global Recourses will design the restoration program for the identified modifications on the project site. The restoration design will involve a complete confirmation of the remediation project that was done, to ensure new contamination of hydrocarbon does not exist by ensuring the site is within acceptable risk level for the enhancement of mangrove growth. Seed sourcing /Stocking Giolee currently owns a mangrove nursery which was started in March, 2015 in the Niger Delta of Nigeria. We have over five hundred thousand (500,000) seedlings of this nursery which were carefully selected from various types of healthy, ripe propagules. This selection made our nursery farm to house different species of mangrove, these species include Rhizophora racemosa, Rhizophora harisonii , Rhizophora mangle available to be deployed at clients demand. Mangrove planting is the next step in the mangrove restoration after identifying and treating the disturbances.the next will be the transferring of the juvenile mangroves by boat from the nursery to the project site for actual planting.</p>
-                        <p class="mb-20">Giolee has a strategic partnership with <b>Lewis Environmental Services Inc</b> to provide extensive expertise in the restoration and management of mangrove forest and other wetlands. Giolee has a Mangrove nursery with over 1,000,000 Juvenile mangrove that is being nursed and ready to be transplanted any where at clients demand. When hydrocarbon coats the roots of the mangrove, it starves them of oxygen which leads to the increase in death rate of mangrove.</p>
-                        <p class="mb-20"><b>Mangrove Restoration Technique In summary,</b> five critical steps are necessary to achieve successful mangrove restoration:
-                            Understand the autecology (individual species ecology) of the mangrove species at the site; In particular the patterns of reproduction, propagule distribution, and successful seedling Establishment.
-                            Understand the normal hydrologic patterns that control the distribution and successful
-                            Establishment and growth of targeted mangrove species.
-                            Assess modifications of the original mangrove environment that currently prevent natural
-                            Secondary succession (recovery after damage).
-                            Design the restoration program to restore appropriate hydrology and, if possible, utilize natural volunteer mangrove propagate recruitment for plant establishment.</p>
-                        <div class="row mt-40 mb-40">
+                       <div class="row mt-40 mb-40">
                             <div class="col-sm-6 sm-mb-25">
                                 <img class="img_full" src="assets/img/service/mangrove2.jpg"alt="image">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 mb-3">
                                 <img class="img_full" src="assets/img/service/mangrove4.jpg" alt="image">
                             </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang5.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang8.jpeg" alt="image">
+                            </div>
                         </div>
-                        <p class="mb-20">Only utilize actual planting of propagates, collected seedlings, or cultivated seedlings after Determining (through steps a-d) that natural recruitment will not provide the quantity of Successfully established seedlings, rate of stabilization, or rate of growth of saplings Established as objectives for the restoration project (Lewis and Marshall 1997) Planting Mangroves is not difficult provided we observe some basic guidelines.</p>
-                        <p class="mb-20">
-                            The pre-condition for success is to conduct an initial survey of representative habitats in areas close to the chosen site that should focus on
-                            <ol>
-                                <li>Mangrove species (number of trees of each species per hectare)</li>
-                                <li>Type of substrate</li>
-                                <li>Depth of water at high and low tides</li>
-                                <li>Salinity of water trapped in mangrove mud at low tide</li>
-                                <li>Ground vegetation and mangrove associate plants It is evident that the best results will be achieved by replicating the exact species mix determined in those findings.</li>
-                            </ol>
-                        </p>
                         <h4 class="mb-20">Technical Approach/Methodology</h4>
                         <p class="mb-20">
                             Giolee’s method of mangrove restoration will employ the following approach to successfully rehabilitate the depleted mangrove and these will include basically;
@@ -130,8 +120,20 @@ include "./components/navbar.php";
                             <div class="col-sm-6 sm-mb-25">
                                 <img class="img_full" src="assets/img/service/mangrove5.jpg"alt="image">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 mb-3">
                                 <img class="img_full" src="assets/img/service/mangrove6.jpg" alt="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang1.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang2.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang3.jpeg" alt="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <img class="img_full" src="assets/img/service/mang4.jpeg" alt="image">
                             </div>
                         </div>
                     </div>

@@ -27,8 +27,22 @@ include "./components/navbar.php";
                 <div class="col-lg-8">
                     <div class="services__details-area">
                         <img src="assets/img/service/spill.jpg" alt="image">
-                        <h3 class="mt-25 mb-20">Training</h3>
+                        <h3 class="mt-25 mb-20">Oil Spill Clean Up & Remediation</h3>
                         <p class="mb-20">Giolee has industry expertise and experience in the remediation of hydrocarbon contaminated sites. We have rendered various clean-up/remediation projects services to reputable clients in the oil and gas industry in Nigeria. Some of the project sites include swamp and land locations with hydrocarbon contamination at varying depths beyond one meter. Our projects also involve shoreline clean-up and systematic mangrove vegetation cleaning.</p>
+                        <p class="mb-20">Giolee uses a range of Bio-remediation Additive combination Types  for her projects and they include:</p>
+                        <p>
+                            <b>(a) OSE II (Oil Spill Eater II):</b>
+                            OSE II is a biological enzyme product. OSE II primarily contains Bio-surfactants and nutrients that enhance the activity of indigenous (naturally occurring) bacteria to break complex hydrocarbon chains and convert it to CO2 and water.</p>
+                        <p>
+                            <b>(b) Petrol Cleanze:</b>
+                            Petrol Cleanze is another bioremediation additive designed to address a wide range of petroleum hydrocarbons in soil and groundwater.
+                            It functions similarly by providing nutrients and other amendments that promote the growth and activity of hydrocarbon-degrading bacteria, thereby aiding and quickening the remediation process (this is made by Regenesis USA/UK).
+                        </p>
+                        <p>
+                            <b>(c) Ergofito Aqua:</b>
+                            Ergofito Aqua is another highly effective in-situ remediation additive for contaminated soils. It can break down complex petroleum hydrocarbon chain between C1 to C35.
+                            Ergofito Aqua attacks the hydrocarbons directly and facilitates their conversion into humus. Humus is a stable, decomposed organic matter that is beneficial for soil health and enhances soil nutrients for healthy plant growth (this is made by Ergofito in South Africa)
+                        </p>
                         <p class="mb-20">Giolee has partnership with Oil Spill Eater II Corporation (OSE II Corporation) a unique first response bioremediation agent, safe and effective on all types of oil and environments and is completely non-toxic. OSE II breaks down the molecular structure of hydrocarbons through the effects of bio surfactants and enzymes.
                         Remediation of a hydrocarbon Impacted Site can be achieved through many methods. However the methods Giolee employs for Clean-up of land /soil remediation and swamp/creek are:</p>
                         <h4 class="mb-20">Methodology for Land/Soil Remediation</h4>

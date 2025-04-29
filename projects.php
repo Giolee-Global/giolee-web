@@ -24,17 +24,20 @@ include "./components/navbar.php";
                 <div class="col-xl-12 mb-40 wow fadeInUp" data-wow-delay=".3s">
                     <div class="gallery__area-button t-center">
                         <button class="active" data-filter="*">All</button>
-                        <button data-filter=".assessments">Assessments</button>
-                        <button data-filter=".containment">Containment</button>
-                        <button data-filter=".environmental">Environmental Restoration</button>
-                        <button data-filter=".remediation">Remediation</button>
-                        <button data-filter=".training">Training</button>
-                        <button data-filter=".waste">Waste Management</button>
+                        <button data-filter=".oilSpill">Oil Spill Response, Onshore & Offshore</button>
+                        <button data-filter=".remediation">Oil Spill Clean Up & Remediation</button>
+                        <button data-filter=".wasteMangament">Waste Management</button>
+                        <button data-filter=".waterTreatment">Water Treatment</button>
+                        <button data-filter=".environmental">⁠Environmental Consultancy</button>
+                        <button data-filter=".laboratoryServices">Laboratory Services</button>
+						<button data-filter=".mangroveRestoration">Mangrove Restoration</button>
+						<button data-filter=".training">Training</button>
+						<button data-filter=".decommissioning">Decommissioning</button>
                     </div>					  
                 </div>
             </div>
             <div class="row gallery__area-active">
-                <div class="col-xl-4 col-md-6 mt-25 assessments wow fadeInUp" data-wow-delay=".4s">
+                <div class="col-xl-4 col-md-6 mt-25 oilSpill wow fadeInUp" data-wow-delay=".4s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">
@@ -44,7 +47,7 @@ include "./components/navbar.php";
 						</div>
 					</div>
                 </div>
-                <div class="col-xl-4 col-md-6 mt-25 containment wow fadeInUp" data-wow-delay=".7s">
+                <div class="col-xl-4 col-md-6 mt-25 remediation wow fadeInUp" data-wow-delay=".7s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">
@@ -54,7 +57,7 @@ include "./components/navbar.php";
 						</div>
 					</div>
                 </div>
-                <div class="col-xl-4 col-md-6 mt-25 environmental wow fadeInUp" data-wow-delay="1s">
+                <div class="col-xl-4 col-md-6 mt-25 wasteMangament wow fadeInUp" data-wow-delay="1s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">
@@ -64,7 +67,7 @@ include "./components/navbar.php";
 						</div>
 					</div>
                 </div>
-                <div class="col-xl-4 col-md-6 mt-25 remediation wow fadeInUp" data-wow-delay=".4s">
+                <div class="col-xl-4 col-md-6 mt-25 waterTreatment wow fadeInUp" data-wow-delay=".4s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">
@@ -74,7 +77,7 @@ include "./components/navbar.php";
 						</div>
 					</div>
                 </div>
-                <div class="col-xl-4 col-md-6 mt-25 training wow fadeInUp" data-wow-delay=".7s">
+                <div class="col-xl-4 col-md-6 mt-25 environmental wow fadeInUp" data-wow-delay=".7s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">
@@ -84,7 +87,37 @@ include "./components/navbar.php";
 						</div>
 					</div>
                 </div>
-                <div class="col-xl-4 col-md-6 mt-25 waste wow fadeInUp" data-wow-delay="1s">
+                <div class="col-xl-4 col-md-6 mt-25 laboratoryServices wow fadeInUp" data-wow-delay="1s">
+                    <div class="portfolio__four-item">
+						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
+						<img src="assets/img/projects/project.jpg" alt="image">
+						<div class="portfolio__four-item-content">
+							<span>Industrial</span>
+							<h5><a href="portfolio-details.html">Industrial Warehouse</a></h5>
+						</div>
+					</div>
+                </div>
+				<div class="col-xl-4 col-md-6 mt-25 mangroveRestoration wow fadeInUp" data-wow-delay="1s">
+                    <div class="portfolio__four-item">
+						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
+						<img src="assets/img/projects/project.jpg" alt="image">
+						<div class="portfolio__four-item-content">
+							<span>Industrial</span>
+							<h5><a href="portfolio-details.html">Industrial Warehouse</a></h5>
+						</div>
+					</div>
+                </div>
+				<div class="col-xl-4 col-md-6 mt-25 training wow fadeInUp" data-wow-delay="1s">
+                    <div class="portfolio__four-item">
+						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
+						<img src="assets/img/projects/project.jpg" alt="image">
+						<div class="portfolio__four-item-content">
+							<span>Industrial</span>
+							<h5><a href="portfolio-details.html">Industrial Warehouse</a></h5>
+						</div>
+					</div>
+                </div>
+				<div class="col-xl-4 col-md-6 mt-25 decommissioning wow fadeInUp" data-wow-delay="1s">
                     <div class="portfolio__four-item">
 						<a href="portfolio-details.html"><i class="flaticon flaticon-right-up"></i></a>
 						<img src="assets/img/projects/project.jpg" alt="image">

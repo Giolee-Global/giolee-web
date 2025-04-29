@@ -38,6 +38,20 @@ include "./components/navbar.php";
                                 <img class="img_full" src="assets/img/service/waste-management-IIII.jpg" alt="image">
                             </div>
                         </div>
+                        <h4>Thermal Desorption Unit(TDU) services</h4>
+                        <p class="mb-20">At Giolee, we are committed to providing cutting-edge solutions for waste management. Our Thermal Desorption unit(TDU) services are designed to handle oil-contaminated drill cuttings and other hazardous waste with precision and care.
+                        The TDU process separates contaminants like oil and water from solid waste, ensuring minimal environmental impact.</p>
+                        <p class="mb-20">
+                            <b>Our TDU services include:<br></b>
+                            <ul>
+                                <li>Emvironmental Compliance: our process ensures that treated waste meets regulatory standards , with oil residue to less than 0.5%.</li>
+                                <li>Sustainability</li>
+                                <li>onsite and offsite Treatment: At Giolee we offer flexible solutions to meet your power needs</li>
+                            </ul>
+                        </p>
+                        <h5>Why choose us?</h5>
+                        <p class="mb-20">At Giolee, we have state-of-the-art technology and a team of experienced professionals ready to deliver efficient, reliable and eco-friendly TDU services. We prioritize safety, compliance, and sustainability in every project we undertake.</p>
+                        <p>We prioritize safety, compliance, and sustainability in every project we undertake.</p>
                     </div>
                 </div>
             </div>

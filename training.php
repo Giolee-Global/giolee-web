@@ -28,7 +28,7 @@ include "./components/navbar.php";
                     <div class="services__details-area">
                         <img src="assets/img/service/train1.jpg" alt="image">
                         <h3 class="mt-25 mb-20">Training</h3>
-                        <p class="mb-20">Giolee has the capabilities to handle decommissioning services both onshore and offshore. We have the experience and tools to plan, manage, and execute your facility decommissioning and restoration projects successfully, responsibly, and safely. We provides a full-range of decommissioning services to the oil and gas and environmental industries, including:</p>
+                        <p class="mb-20">Giolee offers IMO 1,2,3 training and other specialized training in the oil and gas industries. Oil spill management requires skill and adequate knowledge to effectively combat its effect on the environment. Competency in spill response requires adequate knowledge of regulatory standards and safety requirements, along with the use of modern techniques and tools tailored to meet particular response conditions. Giolee Global Resources offers a range of training on environmental services including:</p>
                         <ul>
                             <li>Spill Prevention</li>
                             <li>Preparedness</li>
@@ -54,7 +54,7 @@ include "./components/navbar.php";
                             </div>
                         </div>
                         <h4 class="mb-20">Training Certification</h4>
-                        <p>Giolee issues certification approved by OSHA and IMO</p>
+                        <p>Giolee is certified with Nautical Council to issue IMO Level 1, 2 and 3</p>
                         <div class="row mt-40 mb-40">
                             <div class="col-sm-6 mb-20">
                                 <img class="img_full" src="assets/img/service/training3.jpg"alt="image">
