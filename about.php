@@ -25,7 +25,7 @@ include "./components/navbar.php";
             <div class="row">
                 <div class="col-lg-6 lg-mb-25">
                     <div class="mission__area-left mr-40 xl-mr-0">
-                        <h2 class="title_split_anim">Protecting Nature, Empowering Industries.</h2>
+                        <h2 class="title_split_anim">Protecting Nature, Sustaining the Environment.</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -34,7 +34,7 @@ include "./components/navbar.php";
                             <div class="col-md-12 md-mb-25 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="experience__area-list-item">
                                     <div>
-                                        <p class="wow fadeInUp" data-wow-delay=".6s">“Giolee Global Resources Limited is a company incorporated in Nigeria on November 5, 2004 as a wholly-owned indigenous company which is wholeheartedly passionate about the impact of unsustainable activities on human and the environment”</p>
+                                        <p class="wow fadeInUp" data-wow-delay=".6s">“Giolee Global Resources Limited is a fully indigenous company, duly incorporated in Nigeria on November 5, 2004. The company is committed to providing solutions that protects nature and sustains the environment.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ include "./components/navbar.php";
                     <div class="about__five-right ml-70 xl-ml-0">
                         <div class="about__five-right-title mb-10">
                             <span class="subtitle wow fadeInLeft" data-wow-delay=".4s">About Giolee</span>
-                            <h2 class="title_split_anim">Cleaner Environments, Brighter Futures.</h2>
+                            <h2 class="title_split_anim">Protecting the Earth, Sustaining Nature.</h2>
                         </div>
                         <p class="wow fadeInUp" data-wow-delay=".2s">We are fully aware of the diverse environmental challenges in a vast territory like the Nigerian environment, so we operate in total compliance with local, International, statutory and regulatory/legislative standard to bring positive impact to the environment.</p>
                         <p class="wow fadeInUp" data-wow-delay=".4s">As a promoter of local content, we strongly uphold the practice of transfer of skills/knowledge and capacity with certifications to indigenous labor force as we deliver a world class quality and timely result in all our projects.</p>
@@ -112,19 +112,19 @@ include "./components/navbar.php";
                         <div class="col-md-4 md-mb-25 wow fadeInUp" data-wow-delay=".4s">
                             <div class="industry__four-left-item borders pr-10 lg-pr-0">
                                 <h5>Capacity</h5>
-                                <p>Giolee has the capacity to support a diverse client base—from local, state and national government programs to industry, enviromental/consulting. Our experience give us the advantage with these clients, to support both short-term needs and long-term development.</p>
+                                <p>Giolee has the capacity to support a diverse client base—from industry based projects to national and international government projects. Our experience gives us a competitive edge in supporting these clients, enabling us to meet their immediate needs while driving long-term growth and development.</p>
                             </div>
                         </div>
                         <div class="col-md-4 md-mb-25 wow fadeInUp" data-wow-delay=".4s">
                             <div class="industry__four-left-item borders pr-10 lg-pr-0">
                                 <h5>Projects</h5>
-                                <p>We deploy state-of-the-art expertise and equipment on all projects, partnering with over 18 internationally viable and competent companies with global record in all their operations. We deliver a world class quality and timely result in all our projects.</p>
+                                <p>We deploy state-of-the-art expertise and equipment on all projects, partnering with over 18 internationally viable and competent companies with global record in all their operations. We are consistent in delivering world-class quality results across all our projects.</p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInUp" data-wow-delay=".8s">
                             <div class="industry__four-left-item pl-20 xl-pl-0">
                                 <h5>Specialists</h5>
-                                <p>We have an array of professional, competent personnel, equipment and resources at our disposal for any project(s) in our area of service provision to our clients. We are ISO 9001:2015 certified and as such all our operations are in line with best Industrial and International practice.</p>
+                                <p>We are equipped with a team of skilled professionals, advanced equipment, and robust resources, ready to execute any project within our service areas to meet our clients' needs effectively. We are ISO 9001:2015 certified and as such all our operations are in line with best Industrial and International standards                                                                                                                                     .</p>
                             </div>
                         </div>
                     </div>
