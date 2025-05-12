@@ -93,7 +93,7 @@ include "./components/navbar.php";
                 <div class="col-lg-9">
                     <div class="about__four-title">
                         <span class="subtitle wow fadeInLeft" data-wow-delay=".4s">About The Company</span>
-                        <h2 class="title_split_anim mb-20">Your Trusted Partner in Environmental Excellence.</h2>
+                        <h2 class="title_split_anim mb-20">Your Trusted partner in Exceptional Environmental Services.</h2>
                         <p class="wow fadeInUp" data-wow-delay=".4s">Giolee Global Resources Limited is a leading provider of environmental consultancy and technical services, specializing in the oil, gas, and petrochemical industries across Nigeria and West Africa. Established on November 5, 2004, Giolee is committed to delivering world-class environmental solutions with a focus on sustainability and excellence.</p>
                         <div class="item_bounce">
                             <a class="build_button mt-25" href="about">Our Story<i class="flaticon-right-up"></i></a>
@@ -108,7 +108,7 @@ include "./components/navbar.php";
                             <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="about__four-counter-item">
                                     <div class="box text-center">
-                                        <h2><span class="counter">120</span>+</h2>
+                                        <h2><span class="counter">500</span>+</h2>
                                         <span>Complete Projects</span>
                                     </div>
                                 </div>
