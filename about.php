@@ -25,7 +25,7 @@ include "./components/navbar.php";
             <div class="row">
                 <div class="col-lg-6 lg-mb-25">
                     <div class="mission__area-left mr-40 xl-mr-0">
-                        <h2 class="title_split_anim">Protecting Nature, Sustaining the Environment</h2>
+                        <h2 class="title_split_anim">Protecting Nature, Sustaining the Environment.</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
