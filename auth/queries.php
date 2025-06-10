@@ -15,7 +15,7 @@ if (isset($_POST['new_enquiry_btn'])) {
 
 
     $query = "INSERT INTO support (firstName, lastName, email, phone, subject, request, status) 
-            VALUES('$firstName', '$lastName', '$email', '$phone', '$subject', '$request', '$status')";
+            VALUES('$firstName', '$lastName', '$email', '$phone', '$subject', '$request', 'Open')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
             $_SESSION['success_message'] = "Contact enquiries sent";
