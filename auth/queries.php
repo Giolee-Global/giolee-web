@@ -18,8 +18,8 @@ if (isset($_POST['new_enquiry_btn'])) {
             VALUES('$firstName', '$lastName', '$email', '$phone', '$subject', '$request', '$status')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
-            $_SESSION['success_message'] = "New Admin Created";
+            $_SESSION['success_message'] = "Contact enquiries sent";
         }else {
-            $_SESSION['error_message'] = "Error creating new admin".mysqli_error($conn);
+            $_SESSION['error_message'] = "Error sending enquiries".mysqli_error($conn);
         }
 }
