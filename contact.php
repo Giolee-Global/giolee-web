@@ -1,6 +1,22 @@
 <?php
 include "./components/header.php";
 include "./components/navbar.php";
+require_once "./auth/queries.php";
+
+    $recaptchaSecret = '6LccIVsrAAAAAP5svhmZWCBpE6L5AEVMK9fMKgAh';
+    $response = $_POST['g-recaptcha-response'];
+    $remoteip = $_SERVER['REMOTE_ADDR'];
+
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$response}&remoteip={$remoteip}");
+    $responseData = json_decode($verify);
+
+    if ($responseData->success) {
+        // Verified successfully
+        //echo "Success!";
+    } else {
+        // Failed verification
+        //echo "reCAPTCHA failed. Please try again.";
+    }
 ?>
 
     <div class="breadcrumb__area" style="background-image: url('assets/img/contact.jpg');">
@@ -63,31 +79,44 @@ include "./components/navbar.php";
                 <div class="col-lg-7 wow fadeInRight" data-wow-delay=".4s">
                     <div class="contact__area-form">
                         <h4>Send Message</h4>
-                        <form action="#">
+                        <form id="contactForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 							<div class="row">
 								<div class="col-md-6 mb-25">
 									<div class="contact__form-area-item">
-										<input type="text" name="name" placeholder="Full Name" required="required">
+										<input type="text" name="firstName" placeholder="First Name" required="required">
 									</div>
 								</div>
-								<div class="col-md-6 md-mb-25">
+                                <div class="col-md-6 mb-25">
+									<div class="contact__form-area-item">
+										<input type="text" name="lastName" placeholder="Last Name" required="required">
+									</div>
+								</div>
+								<div class="col-md-6 mb-25">
 									<div class="contact__form-area-item">
 										<input type="email" name="email" placeholder="Email Address" required="required">
 									</div>
 								</div>
-								<div class="col-md-12 mb-25">
+                                <div class="col-md-6 mb-25">
 									<div class="contact__form-area-item">
-										<input type="text" name="subject" placeholder="Subject">
+										<input type="tel" name="phone" placeholder="Phone Number" required="required">
 									</div>
 								</div>
 								<div class="col-md-12 mb-25">
 									<div class="contact__form-area-item">
-										<textarea name="message" placeholder="Message"></textarea>
+										<input type="text" name="subject" placeholder="Subject" required>
 									</div>
 								</div>
+								<div class="col-md-12 mb-25">
+									<div class="contact__form-area-item">
+										<textarea name="request" placeholder="Message" required></textarea>
+									</div>
+								</div>
+                                <div class="mb-25">
+                                    <div class="g-recaptcha" data-sitekey="6LccIVsrAAAAALR7ix-WuRi4zLzhz5FmitZWrogO"></div>
+                                </div>
 								<div class="col-md-12">
 									<div class="contact__form-area-item">
-										<button class="build_button" type="submit">Submit Message <i class="flaticon-right-up"></i></button>
+										<button class="build_button" name="new_enquiry_btn" type="submit">Send Message <i class="flaticon-right-up"></i></button>
 									</div>
 								</div>
 							</div>

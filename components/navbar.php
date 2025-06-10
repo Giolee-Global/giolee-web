@@ -1,7 +1,7 @@
     <div class="header__area-menubar-right-sidebar-popup">
 		<div class="sidebar-close-btn"><i class="fal fa-times"></i></div>
 		<div class="header__area-menubar-right-sidebar-popup-logo">
-			<a href="./"> <img src="assets/img/logo_mixed_white.svg" alt="Logo-image"></a>
+			<a href="./"> <img src="assets/img/Giolee-logo-light.png" alt="Logo-image"></a>
 		</div>
 		<p class="text-white">Giolee has the capacity to support a diverse client base—from local, state and national government programs to industry, enviromental/consulting.</p>
 		<div class="header__area-menubar-right-sidebar-popup-contact">
@@ -49,7 +49,7 @@
 	<!-- Mobile Menu Start -->
 	<div class="menu__bar-popup">
 		<div class="menu__bar-popup-top">
-			<div class="logo"><a href="index.html"><img src="assets/img/logo_mixed_white.svg" alt="logo-image"></a></div>			
+			<div class="logo"><a href="./"><img src="assets/img/Giolee-logo-light.png" alt="logo-image"></a></div>			
 			<div class="close"><i class="fal fa-times"></i></div>
 
 		</div>
@@ -68,7 +68,7 @@
 			<div class="header__area-menubar">
 				<div class="header__area-menubar-left one">
 					<div class="header__area-menubar-left-logo">
-                        <a href="./"><img src="assets/img/logo_mixed_white.svg" alt="logo"></a>
+                        <a href="./"><img src="assets/img/Giolee-logo-light.png" alt="logo"></a>
                     </div>
 				</div>
 				<div class="header__area-menubar-center">

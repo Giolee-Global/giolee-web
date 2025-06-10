@@ -1,3 +1,16 @@
+<?php
+include "./config/db.php";
+//GET VISTORS
+$user_ip = $_SERVER['REMOTE_ADDR'];
+$check_ip = mysqli_query($conn, "SELECT visitorip FROM traffic WHERE page ='home' and visitorip ='$user_ip'");
+if(mysqli_num_rows($check_ip) >=1){
+    //not unique user
+}else{
+    $insertQuery = mysqli_query($conn, "INSERT INTO traffic (page, visitorip) VALUE ('home','$user_ip')");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +24,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Giolee Global Resources Limited&reg; :: Oil Spill Response, Remediation, Environmental Consultancy, Laboratory Services</title>
     
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/giolee-favicon.png">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/fontawesome.css">
 	<link rel="stylesheet" href="assets/font/flaticon_flexitype.css">
