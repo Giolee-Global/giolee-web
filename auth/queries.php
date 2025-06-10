@@ -18,8 +18,8 @@ if (isset($_POST['new_enquiry_btn'])) {
             VALUES('$firstName', '$lastName', '$email', '$phone', '$subject', '$request', 'Open')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
-            $_SESSION['success_message'] = "Contact enquiries sent";
+            $_SESSION['success_message'] = "Contact enquiry sent";
         }else {
-            $_SESSION['error_message'] = "Error sending enquiries".mysqli_error($conn);
+            $_SESSION['error_message'] = "Error sending enquiry".mysqli_error($conn);
         }
 }
