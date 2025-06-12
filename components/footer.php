@@ -125,7 +125,7 @@
     </script>
     
     <script>
-      document.getElementById("rentalForm").addEventListener("submit", function(e) {
+      document.getElementById("quoteForm").addEventListener("submit", function(e) {
         // Get the response token
         var response = grecaptcha.getResponse();
 

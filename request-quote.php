@@ -1,9 +1,25 @@
 <?php
 include "./components/header.php";
 include "./components/navbar.php";
+require_once "./auth/queries.php";
+
+    $recaptchaSecret = '6LccIVsrAAAAAP5svhmZWCBpE6L5AEVMK9fMKgAh';
+    $response = $_POST['g-recaptcha-response'];
+    $remoteip = $_SERVER['REMOTE_ADDR'];
+
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$response}&remoteip={$remoteip}");
+    $responseData = json_decode($verify);
+
+    if ($responseData->success) {
+        // Verified successfully
+        //echo "Success!";
+    } else {
+        // Failed verification
+        //echo "reCAPTCHA failed. Please try again.";
+    }
 ?>
 
-    <div class="breadcrumb__area" style="background-image: url('assets/img/page/breadcrumb.jpg');">
+    <div class="breadcrumb__area" style="background-image: url('assets/img/certified_2.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -17,85 +33,72 @@ include "./components/navbar.php";
 				</div>
 			</div>
 		</div>
-	</div>       
-    <!-- Breadcrumb Area End -->
-    <!-- Request Quote Page Start -->
+	</div>
+
     <div class="request__quote section-padding-three">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
-                    <form action="#">
+                <div class="col-xl-8 mx-auto">
+                    <form id="quoteForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                         <div class="row">
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
                                     <label>First Name<span> *</span></label>
-                                    <input type="text" name="name" placeholder="First" required>
+                                    <input type="text" name="firstName" placeholder="First" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
-                                    <label>Last Name</label>
-                                    <input type="text" placeholder="Last">
+                                    <label>Last Name<span> *</span></label>
+                                    <input type="text" name="lastName" placeholder="Last" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
                                     <label>Email Address<span> *</span></label>
-                                    <input type="email" placeholder="Email" required>
+                                    <input type="email" name="email" placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
-                                    <label>Number<span> *</span></label>
-                                    <input type="text" placeholder="+00 123 4567" required>
+                                    <label>Phone<span> *</span></label>
+                                    <input type="text" name="phone" placeholder="+234 816 268 0096" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
                                     <label>Company/Organization<span> *</span></label>
-                                    <input type="text" placeholder="Envato" required>
+                                    <input type="text" name="company" placeholder="NNPC" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mt-30">
                                 <div class="request__quote-item">
-                                    <label>Website<span> *</span></label>
-                                    <input type="text" placeholder="http://envato.com" required>
-                                </div>
-                            </div>
-                            <div class="col-md-12 mt-30">
-                                <p class="mb-10">What services can we provide you?<span> *</span></p>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="request__quote-services">
-                                            <label><input class="mr-10" type="checkbox">Optimization (SEO)</label>
-                                            <label><input class="mr-10" type="checkbox">Web Design</label>
-                                            <label><input class="mr-10" type="checkbox">Web Hosting / Maintenance</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="request__quote-services">
-                                            <label><input class="mr-10" type="checkbox">Content Writing</label>
-                                            <label><input class="mr-10" type="checkbox">Search Engine Marketing</label>
-                                            <label><input class="mr-10" type="checkbox">Social Media</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="request__quote-services">
-                                            <label><input class="mr-10" type="checkbox">ADA Compliance</label>
-                                            <label><input class="mr-10" type="checkbox">Photography / Video</label>
-                                            <label><input class="mr-10" type="checkbox">Email Marketing</label>
-                                        </div>
-                                    </div>
+                                    <label>What services can we provide you?<span> *</span></label>
+                                    <select class="form-select" name="service" required aria-label="Service">
+                                        <option selected disabled>Select Service</option>
+                                        <option>Oil Spill Response, Onshore & Offshore</option>
+                                        <option>Oil Spill Clean Up and Remediation</option>
+                                        <option>Waste Management</option>
+                                        <option>Water Treatment</option>
+                                        <option>⁠Environmental Consultancy, Audit, & Assessment</option>
+                                        <option>Laboratory Services</option>
+                                        <option>Ecosystem Mangrove Restoration</option>
+                                        <option>Training</option>
+                                        <option>Decommissioning</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-md-12 mt-30">
                                 <div class="request__quote-item">
-                                    <label>Message<span> *</span></label>
-                                    <textarea name="message"></textarea>
+                                    <label>Project Description<span> *</span></label>
+                                    <textarea name="description"></textarea>
                                 </div>
                             </div>
+                            <div class="mt-30">
+                                <div class="g-recaptcha" data-sitekey="6LccIVsrAAAAALR7ix-WuRi4zLzhz5FmitZWrogO"></div>
+                            </div>
                             <div class="col-lg-12">
-                                <button class="build_button mt-30" type="submit">Submit Now<i class="flaticon-right-up"></i></button>
+                                <button class="build_button mt-30" type="submit" name="new_quote_btn">Submit Now<i class="flaticon-right-up"></i></button>
                             </div>
                         </div>
                     </form>

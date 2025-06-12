@@ -7693,3 +7693,7 @@ p {
 .dark-mode .choose__us-left-counter {
   background-image: url("../img/shape/shape-dark.png") !important;
 }/*# sourceMappingURL=style.css.map */
+
+select.form-select {
+  height: 60px;
+}
