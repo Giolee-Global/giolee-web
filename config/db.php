@@ -9,7 +9,7 @@ if ($WEBSITE_ENVIRONMENT == "Development") {
     $user = "root";
     $password = "";
     $database = "giolee";
-    error_reporting(E_ALL ^ E_NOTICE); // turn ON showing errors
+    error_reporting(E_ALL ); // turn ON showing errors
 } else {
     $host = "localhost";
     $user = "gioleeco_app";

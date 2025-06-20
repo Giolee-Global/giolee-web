@@ -1,27 +1,10 @@
 <?php
-require_once "./config/db.php";
 include "./components/header.php";
 include "./components/navbar.php";
-
-    $serviceID = $_GET['id'];
-                
-    $select_query = "SELECT * FROM services INNER JOIN media ON services.serviceID = media.serviceID";
-    $result = mysqli_query($conn, $select_query);
-    if (mysqli_num_rows($result) > 0) {
-        // output data of each row
-        while($row = mysqli_fetch_assoc($result)) {
-            $serviceID = $row['serviceID'];
-            $title = $row['title'];
-            $filePath = $row['filePath'];
-            $firstParagraph = $row['firstParagraph'];
-            $secondParagraph = $row['secondParagraph'];
-            $thirdParagraph = $row['thirdParagraph'];
-        }
-    }
-
+include_once "./auth/data.php";
 ?>
 
-    <div class="breadcrumb__area" style="background-image: url('https://backoffice.giolee.com/<?php echo $filePath; ?>');background-position: center;">
+    <div class="breadcrumb__area" style="background-image: url('https://backoffice.giolee.com/<?php echo $breadcrumb_filePath; ?>');background-position: center;">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -44,47 +27,38 @@ include "./components/navbar.php";
                 <?php include "./components/services-menu.php"; ?>
                 <div class="col-lg-8">
                     <div class="services__details-area">
-                        <img src="assets/img/service/onshore.jpg" alt="image">
+                        <img src="https://backoffice.giolee.com/<?php echo $hero_filePath; ?>" alt="image">
                         <h3 class="mt-25 mb-20"><?php echo $title; ?></h3>
                         <div>
                             <?php echo $firstParagraph; ?>
                         </div>
                         <div class="row mt-40 mb-40">
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore1.jpg"alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore2.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore3.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore4.jpg" alt="image">
-                            </div>
+                            <?php foreach ($media_images as $imagePath): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $imagePath; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                         <div>
                             <?php echo $secondParagraph; ?>
                         </div>
                         <div class="row mt-40 mb-40">
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore5.jpg"alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore6.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore7.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore8.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore9.jpg" alt="image">
-                            </div>
-                            <div class="col-sm-6 mb-20">
-                                <img class="img_full" src="assets/img/service/onshore10.jpg" alt="image">
-                            </div>
+                            <?php foreach ($media_two_images as $image_two_Path): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_two_Path; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div>
+                            <?php echo $thirdParagraph; ?>
+                        </div>
+                        <div class="row mt-40 mb-40">
+                            <?php foreach ($media_three_images as $image_three_Path): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <!-- <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_three_Path; ?>"alt="image"> -->
+                                    <img class="img_full" src="http://localhost/giolee-admin/<?php echo $image_three_Path; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>
