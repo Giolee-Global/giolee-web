@@ -8,7 +8,7 @@ include "./components/navbar.php";
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="breadcrumb__area-content">
-						<h2>Water/Waste Treatment</h2>
+						<h2>Water Treatment</h2>
 						<ul>
 							<li><a href="./">Home</a><i class="fa-regular fa-angle-right"></i></li>
                             <li class="text-white">Services<i class="fa-regular fa-angle-right"></i></li>
