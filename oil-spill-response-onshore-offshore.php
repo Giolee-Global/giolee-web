@@ -55,8 +55,7 @@ include_once "./auth/data.php";
                         <div class="row mt-40 mb-40">
                             <?php foreach ($media_three_images as $image_three_Path): ?>
                                 <div class="col-sm-6 mb-20">
-                                    <!-- <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_three_Path; ?>"alt="image"> -->
-                                    <img class="img_full" src="http://localhost/giolee-admin/<?php echo $image_three_Path; ?>"alt="image">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_three_Path; ?>"alt="image">
                                 </div>
                             <?php endforeach; ?>
                         </div>
