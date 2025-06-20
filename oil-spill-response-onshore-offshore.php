@@ -1,7 +1,7 @@
 <?php
 include "./components/header.php";
 include "./components/navbar.php";
-include_once "./auth/data.php";
+include_once "./auth/data-response.php";
 ?>
 
     <div class="breadcrumb__area" style="background-image: url('https://backoffice.giolee.com/<?php echo $breadcrumb_filePath; ?>');background-position: center;">
