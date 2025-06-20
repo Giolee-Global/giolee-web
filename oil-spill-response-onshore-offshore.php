@@ -59,6 +59,36 @@ include_once "./auth/data-response.php";
                                 </div>
                             <?php endforeach; ?>
                         </div>
+                        <div>
+                            <?php echo $fourthParagraph; ?>
+                        </div>
+                        <div class="row mt-40 mb-40">
+                            <?php foreach ($media_four_images as $image_four_Path): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_four_Path; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div>
+                            <?php echo $fifthParagraph; ?>
+                        </div>
+                        <div class="row mt-40 mb-40">
+                            <?php foreach ($media_five_images as $image_five_Path): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_five_Path; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div>
+                            <?php echo $sixthParagraph; ?>
+                        </div>
+                        <div class="row mt-40 mb-40">
+                            <?php foreach ($media_six_images as $image_six_Path): ?>
+                                <div class="col-sm-6 mb-20">
+                                    <img class="img_full" src="https://backoffice.giolee.com/<?php echo $image_six_Path; ?>"alt="image">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
             </div>

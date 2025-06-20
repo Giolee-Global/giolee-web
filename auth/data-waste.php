@@ -5,6 +5,9 @@ require_once "./config/db.php";
     $firstParagraph = "";
     $secondParagraph = "";
     $thirdParagraph = "";
+    $fourthParagraph = "";
+    $fifthParagraph = "";
+    $sixthParagraph = "";
     $hero_filePath = "";
     $breadcrumb_filePath = "";
                 
@@ -14,6 +17,9 @@ require_once "./config/db.php";
         services.firstParagraph,
         services.secondParagraph,
         services.thirdParagraph,
+        services.fourthParagraph,
+        services.fifthParagraph,
+        services.sixthParagraph,
         hero.serviceID AS hero_serviceID,
         hero.filePath AS hero_filePath,
         breadcrumb.serviceID AS breadcrumb_serviceID,
@@ -37,6 +43,9 @@ require_once "./config/db.php";
             $firstParagraph = $row['firstParagraph'];
             $secondParagraph = $row['secondParagraph'];
             $thirdParagraph = $row['thirdParagraph'];
+            $fourthParagraph = $row['fourthParagraph'];
+            $fifthParagraph = $row['fifthParagraph'];
+            $sixthParagraph = $row['sixthParagraph'];
             $hero_filePath = $row['hero_filePath'];
             $breadcrumb_filePath = $row['breadcrumb_filePath'];
         }
@@ -45,6 +54,9 @@ require_once "./config/db.php";
     $media_images = [];
     $media_two_images = [];
     $media_three_images = [];
+    $media_four_images = [];
+    $media_five_images = [];
+    $media_six_images = [];
 
     $media_query = "SELECT filePath FROM media WHERE serviceID = '3'";
     $media_result = mysqli_query($conn, $media_query);
@@ -68,5 +80,29 @@ require_once "./config/db.php";
     if ($media_three_result && mysqli_num_rows($media_three_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_three_result)) {
             $media_three_images[] = $row['filePath'];
+        }
+    }
+
+    $media_four_query = "SELECT filePath FROM media_four WHERE serviceID = '3'";
+    $media_four_result = mysqli_query($conn, $media_four_query);
+    if ($media_four_result && mysqli_num_rows($media_four_result) > 0) {
+        while ($row = mysqli_fetch_assoc($media_four_result)) {
+            $media_four_images[] = $row['filePath'];
+        }
+    }
+
+    $media_five_query = "SELECT filePath FROM media_five WHERE serviceID = '3'";
+    $media_five_result = mysqli_query($conn, $media_five_query);
+    if ($media_five_result && mysqli_num_rows($media_five_result) > 0) {
+        while ($row = mysqli_fetch_assoc($media_five_result)) {
+            $media_five_images[] = $row['filePath'];
+        }
+    }
+
+    $media_six_query = "SELECT filePath FROM media_six WHERE serviceID = '3'";
+    $media_six_result = mysqli_query($conn, $media_six_query);
+    if ($media_six_result && mysqli_num_rows($media_six_result) > 0) {
+        while ($row = mysqli_fetch_assoc($media_six_result)) {
+            $media_six_images[] = $row['filePath'];
         }
     }

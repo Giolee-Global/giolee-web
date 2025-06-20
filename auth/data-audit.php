@@ -27,7 +27,7 @@ require_once "./config/db.php";
     FROM services
     LEFT JOIN hero ON hero.serviceID = services.serviceID
     LEFT JOIN breadcrumb ON breadcrumb.serviceID = services.serviceID
-    WHERE services.serviceID = '1' LIMIT 1";
+    WHERE services.serviceID = '5' LIMIT 1";
 
     $result = mysqli_query($conn, $select_query);
 
@@ -58,7 +58,7 @@ require_once "./config/db.php";
     $media_five_images = [];
     $media_six_images = [];
 
-    $media_query = "SELECT filePath FROM media WHERE serviceID = '1'";
+    $media_query = "SELECT filePath FROM media WHERE serviceID = '5'";
     $media_result = mysqli_query($conn, $media_query);
 
     if ($media_result && mysqli_num_rows($media_result) > 0) {
@@ -67,7 +67,7 @@ require_once "./config/db.php";
         }
     }
 
-    $media_two_query = "SELECT filePath FROM media_two WHERE serviceID = '1'";
+    $media_two_query = "SELECT filePath FROM media_two WHERE serviceID = '5'";
     $media_two_result = mysqli_query($conn, $media_two_query);
     if ($media_two_result && mysqli_num_rows($media_two_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_two_result)) {
@@ -75,7 +75,7 @@ require_once "./config/db.php";
         }
     }
 
-    $media_three_query = "SELECT filePath FROM media_three WHERE serviceID = '1'";
+    $media_three_query = "SELECT filePath FROM media_three WHERE serviceID = '5'";
     $media_three_result = mysqli_query($conn, $media_three_query);
     if ($media_three_result && mysqli_num_rows($media_three_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_three_result)) {
@@ -83,7 +83,7 @@ require_once "./config/db.php";
         }
     }
 
-    $media_four_query = "SELECT filePath FROM media_four WHERE serviceID = '1'";
+    $media_four_query = "SELECT filePath FROM media_four WHERE serviceID = '5'";
     $media_four_result = mysqli_query($conn, $media_four_query);
     if ($media_four_result && mysqli_num_rows($media_four_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_four_result)) {
@@ -91,7 +91,7 @@ require_once "./config/db.php";
         }
     }
 
-    $media_five_query = "SELECT filePath FROM media_five WHERE serviceID = '1'";
+    $media_five_query = "SELECT filePath FROM media_five WHERE serviceID = '5'";
     $media_five_result = mysqli_query($conn, $media_five_query);
     if ($media_five_result && mysqli_num_rows($media_five_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_five_result)) {
@@ -99,7 +99,7 @@ require_once "./config/db.php";
         }
     }
 
-    $media_six_query = "SELECT filePath FROM media_six WHERE serviceID = '1'";
+    $media_six_query = "SELECT filePath FROM media_six WHERE serviceID = '5'";
     $media_six_result = mysqli_query($conn, $media_six_query);
     if ($media_six_result && mysqli_num_rows($media_six_result) > 0) {
         while ($row = mysqli_fetch_assoc($media_six_result)) {
