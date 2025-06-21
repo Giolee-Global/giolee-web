@@ -111,6 +111,20 @@
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script>
+        document.addEventListener('keydown', function(e) {
+        // Block Ctrl+U, Ctrl+S, Ctrl+C
+        if ((e.ctrlKey && ['u','s','c'].includes(e.key.toLowerCase())) || 
+            e.key === 'F12') {
+            e.preventDefault();
+        }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+
+    <script>
       document.getElementById("contactForm").addEventListener("submit", function(e) {
         // Get the response token
         var response = grecaptcha.getResponse();
