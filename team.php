@@ -1,4 +1,5 @@
 <?php
+require_once "./config/db.php";
 include "./components/header.php";
 include "./components/navbar.php";
 ?>
@@ -31,42 +32,38 @@ include "./components/navbar.php";
                 </div>
             </div>
             <div class="row">
+                <?php
+
+                    $select_query = "SELECT * FROM team";
+
+                    $result = mysqli_query($conn, $select_query);
+
+                    // Check for query errors
+                    if (!$result) {
+                        die("Query failed: " . mysqli_error($conn));
+                    }
+
+                    if (mysqli_num_rows($result) > 0) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            $teamID = $row['teamID'];
+                            $fullName = $row['fullName'];
+                            $designation = $row['designation'];
+                            $filePath = $row['filePath'];
+                        
+                ?>
                 <div class="col-lg-3 col-md-6 wow fadeInUp mt-25" data-wow-delay=".3s">
                     <div class="team__area-item">
-                        <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
+                        <img class="img_full" src="https://backoffice.giolee.com/<?php echo $filePath; ?>" alt="image" style="height: 24rem;width: 100%;object-fit: cover;object-position: top;border-radius: 1rem;">
                         <div class="team__area-item-content t-center pt-20">
-                            <h5>Edim Edim</h5>
-                            <span>Head of OSR</span>
+                            <h5><?php echo $fullName; ?></h5>
+                            <span><?php echo $designation; ?></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp mt-25" data-wow-delay=".6s">
-                    <div class="team__area-item">
-                        <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
-                        <div class="team__area-item-content t-center pt-20">
-                            <h5>Edim Edim</h5>
-                            <span>Head of OSR</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp mt-25" data-wow-delay=".9s">
-                    <div class="team__area-item">
-                        <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
-                        <div class="team__area-item-content t-center pt-20">
-                            <h5>Edim Edim</h5>
-                            <span>Head of OSR</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp mt-25" data-wow-delay="1.2s">
-                    <div class="team__area-item">
-                        <img class="img_full" src="assets/img/team/head_of_OSR.jpg" alt="image">
-                        <div class="team__area-item-content t-center pt-20">
-                            <h5>Edim Edim</h5>
-                            <span>Head of OSR</span>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                        }
+                    }
+                ?>
             </div>
         </div>
     </div>
