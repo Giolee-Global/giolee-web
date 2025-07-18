@@ -50,6 +50,15 @@ include_once "./auth/data-ceo.php";
     <div class="choose__us mb-80 pb-80">
 		<div class="container">
 			<div class="row al-center">
+				<div class="col-xl-6">
+					<div class="choose__us-left">
+						<img class="wow img_left_animation" src="https://backoffice.giolee.com/<?php echo $ceoImage; ?>" alt="image">
+						<!-- <div class="choose__us-left-counter bounce_x" style="background-image: url('assets/img/shape/shape.png');">
+							<h2><span class="counter">156</span>k</h2>
+							<p>Project Completed</p>
+						</div> -->
+					</div>
+				</div>
                 <div class="col-xl-6">
 					<div class="choose__us-right xl-ml-0">
 						<div class="choose__us-right-title">
@@ -63,17 +72,8 @@ include_once "./auth/data-ceo.php";
 							</div>
                         </div>
 						<div class="item_bounce">
-							<a class="build_button mt-50" href="certifications">View Certifications<i class="flaticon-right-up"></i></a>
+							<a class="build_button mt-10" href="certifications">View Certifications<i class="flaticon-right-up"></i></a>
 						</div>
-					</div>
-				</div>
-				<div class="col-xl-6 xl-mb-25">
-					<div class="choose__us-left t-right xl-mr-0">
-						<img class="wow img_left_animation" src="https://backoffice.giolee.com/<?php echo $ceoImage; ?>" alt="image">
-						<!-- <div class="choose__us-left-counter bounce_x" style="background-image: url('assets/img/shape/shape.png');">
-							<h2><span class="counter">156</span>k</h2>
-							<p>Project Completed</p>
-						</div> -->
 					</div>
 				</div>
 			</div>
