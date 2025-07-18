@@ -23,7 +23,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-sm-6">
 								<div class="footer__four-widget mr-40">
-									<a class="logo" href="./"><img src="assets/img/logo_mixed_white.svg" alt="logo"></a>
+									<a class="logo" href="./"><img src="assets/img/Giolee-logo-light.png" alt="logo"></a>
 									<p class="text-white">Act Globally and Play Locally with an intent of putting customer first.</p>
 								</div>
                                 <div class="footer__two-widget-about-social">
