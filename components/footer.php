@@ -137,6 +137,15 @@
         }
       });
     </script>
+
+    <script>
+        const parent = document.getElementById('divColor');
+        const elements = parent.querySelectorAll("*");
+
+        elements.forEach(el => {
+            el.style.color = "#ffffff"; // Change to any color
+        });
+    </script>
     
     <script>
       document.getElementById("quoteForm").addEventListener("submit", function(e) {
