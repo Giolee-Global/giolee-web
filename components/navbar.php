@@ -82,7 +82,7 @@
                                     <li><a href="ceo">The CEO's Desk</a></li>
 									<li><a href="team">Team</a></li>
                                     <li><a href="faq">FAQ's</a></li>
-									<li><a href="career">Career</a></li>
+									<li><a href="careers">Careers</a></li>
                                 </ul>
                             </li>
 
