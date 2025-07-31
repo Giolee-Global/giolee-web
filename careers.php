@@ -10,10 +10,10 @@ include_once "./auth/data-career.php";
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="breadcrumb__area-content">
-						<h2>About us</h2>
+						<h2>Careers</h2>
 						<ul>
 							<li><a href="./">Home</a><i class="fa-regular fa-angle-right"></i></li>
-							<li>About us</li>
+							<li>Careers</li>
 						</ul>
 					</div>
 				</div>
