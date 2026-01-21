@@ -70,7 +70,7 @@ require_once "./auth/queries.php";
                                 </div>
                                 <div class="contact__area-left-contact-item-content">
                                     <span>Location:</span>
-                                    <h6><a href="https://maps.app.goo.gl/rofQoiPbWf2MYXU26" target="_blank">18 Uyo Street, Rumuomasi 500102, Port Harcourt.</a></h6>
+                                    <h6><a href="https://maps.app.goo.gl/up874Ux7XSK4r8Re8" target="_blank">Eneka-Igwuruta Express road, before Emarid College.</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ require_once "./auth/queries.php";
             <div class="row">
                 <div class="col-xl-12 wow fadeInUp" data-wow-delay=".4s">
                     <div class="map-area">
-                        <iframe loading="lazy"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.6559699628065!2d7.0219065!3d4.8290009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cdc4346b50f1%3A0x6357e7a34d0fd166!2s18%20Uyo%20Street%2C%20Rumuola%2C%20Port%20Harcourt%20500101%2C%20Rivers!5e0!3m2!1sen!2sng!4v1739869667126!5m2!1sen!2sng" title="Giolee Global Resources Limited" aria-label="Giolee Global Resources Limited"></iframe>
+                        <iframe loading="lazy"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.153987502528!2d7.029944400000001!3d4.9138889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d3004cee534f%3A0x4efe924404dd0894!2sGiolee%20Global%20Resources%20Limited!5e0!3m2!1sen!2sng!4v1769008711023!5m2!1sen!2sng" title="Giolee Global Resources Limited" aria-label="Giolee Global Resources Limited"></iframe>
                     </div>
                 </div>
             </div>
