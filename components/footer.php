@@ -68,7 +68,7 @@
 								<div class="footer__four-widget address">
 									<h5 class="mb-3" style="color: #f9e745;">Connect with us</h5>
 									<div class="footer__four-widget-address">
-										<h6 class="mb-3"><a href="https://maps.app.goo.gl/up874Ux7XSK4r8Re8" target="_blank">Eneka-Igwuruta Express road, before Emarid College.</a></h6>
+										<h6 class="mb-3"><a href="https://maps.app.goo.gl/up874Ux7XSK4r8Re8" target="_blank">Eneka-Igwuruta Express road, before Emarid College, Rivers State.</a></h6>
 										<h6 class="mb-3">+234 703 151 3161</br> +234 805 510 8249</h6>
                                         <h6>info@giolee.com</h6>
 									</div>
